@@ -37,7 +37,7 @@ def decrypt(plaintext, secret):
 
 
 if __name__ == "__main__":
-    m = "Hello world, my name is Petia hahahha"
+    m = "Hello world, my name is hahahha"
     result = encrypt(m, "cat")
     print(decrypt(result, "cat"))
     print(result)
